@@ -21,7 +21,7 @@ How much is it?
 Note this includes only source code, ignoring Google's habit of storing built binaries in the repository.
 
 So I wanted to find out how git would deal with that amount of data.
-Obviously I'm not suggesting here that Google could easily run their repo on top of git; there are constriants beyond the speed of basic operations like `git status` and `git diff` that are harder to fulfill, such as how many pushes per second must be handle and so on.
+Obviously I'm not suggesting here that Google could easily run their repo on top of git; there are constraints beyond the speed of basic operations like `git status` and `git diff` that are harder to fulfill, such as how many pushes per second must be handle and so on.
 Further, I'm not currently testing any history operations here yet (experience reports welcome).
 In this experiement, we just want to get a rough idea of how some basic git operations perform on a large code repository.
 
